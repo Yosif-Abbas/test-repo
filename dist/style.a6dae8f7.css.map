@@ -1,0 +1,1 @@
+{"version":3,"sources":["scss\\style.scss"],"names":[],"mappings":"AAEA;EACI,kBAHM","file":"style.a6dae8f7.css","sourceRoot":"..\\src","sourcesContent":["$bg-gray: #999;\r\n\r\nbody{\r\n    background-color: $bg-gray;\r\n}\r\n\r\n\r\n\r\n"]}
