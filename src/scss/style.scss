@@ -1,8 +1,47 @@
-$bg-gray: #999;
+$bg-gray: #555;
+$white: #ddd;
 
-body{
-    background-color: $bg-gray;
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $bg-gray;
+    color: $white;
+    font-family: 'Lobster', cursive;
+}
 
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    overflow: hidden;
+}
 
+.up-left{
+    transform: translate(-1000px, -480px);
+    animation: up-left 2s both;
+}
+
+.down-right{
+    transform: translate(1000px, 480px);
+    animation: up-left 2s both;
+}
+
+@keyframes up-left{
+    to{
+        transform: translate(0,0);
+    }
+}
+
+@keyframes down-right{
+    to{
+        transform: translate(0,0);
+    }
+}
