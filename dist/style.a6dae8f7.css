@@ -21,6 +21,11 @@ body {
   overflow: hidden;
 }
 
+.container div h1 {
+  cursor: default;
+  user-select: none;
+}
+
 .up-left {
   transform: translate(-1000px, -480px);
   animation: up-left 2s both;
